@@ -13,7 +13,7 @@ const Model = EventDispatcher.extend({
       Vue.set(this, key, parsed[key] || this.fields[key]);
     }
 
-    if (this.mapping && this[idAttribute]) {
+    if (this.mapping && this[this.idAttribute]) {
       modelsMap[this.mapping] = modelsMap[this.mapping] || {};
       modelsMap[this.mapping][this.id] = this;
     }
