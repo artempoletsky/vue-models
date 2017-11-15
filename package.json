@@ -2,7 +2,7 @@
   "name": "vue-models",
   "version": "0.1.0",
   "description": "Non flux store for vue.js",
-  "main": "index.js",
+  "main": "lib/plugin.js",
   "scripts": {
     "build": "babel src -d lib"
   },
